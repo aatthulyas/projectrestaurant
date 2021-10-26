@@ -1,7 +1,7 @@
 .navbar-brand
 {
-font-size: 60px;
-letter-spacing: 2px;
+font-size: 3rem;
+letter-spacing: 0.12rem;
 color: rgb(253, 60, 60);
 }
 .navbar-brand:hover
@@ -10,7 +10,7 @@ color: rgb(253, 60, 60);
     transform: scaleY(1.5);
 }
 .nav-item{
-    font-size: 25px;
+    font-size: 1.5625rem;
 }
 .nav-link{
     color: rgb(247, 233, 229);
@@ -22,17 +22,17 @@ color: rgb(253, 60, 60);
 transform: scaleY(1.5);}
 
 .cover{
-    height: 550px;
+    height: 35rem;
     background-size:100%; 
     background-image:url(./image/download\ \(4\).jpg);
-    background-position: cover; 
+    background-position: cover;
     background-blend-mode: soft-light;
     background-position: bottom center;
 
 }
 .foodu{
-    letter-spacing: 1px;
-    font-size: 18px;
+    letter-spacing: 0.0625rem;
+    font-size: 1.125rem;
     color: rgb(18, 4, 107) ;
 }
 
@@ -41,21 +41,21 @@ transform: scaleY(1.5);}
     top:45%;
     left:23%;
     position: absolute;
-    font-size: 60px;
+    font-size: 3.75rem;
   color: rgb(241, 232, 227);
-    letter-spacing: 3px;
+    letter-spacing: 0.1875rem;
 }
-.text1 h3{font-size: 55px;}
+.text1 h3{font-size: 3.4375rem;}
 
 .btn{margin-bottom: -20rem;
      top:80%; 
     margin-left:1rem;
     line-height: 1.5;
     color: white;
-    height: 60px;
-    width:250px;
-    border-radius: 25px;
-     font-size: 25px;
+    height: 3.75rem;
+    width:15.625rem;
+    border-radius: 1.5625rem;
+     font-size: 1.5625rem;
      border:5px solid rgb(213, 248, 12);
      background-color: transparent;
     
@@ -64,33 +64,34 @@ transform: scaleY(1.5);}
     background-color:tomato ;
     transform: scaleY(1.6)
 }
-.para{height:170px ;
-    margin-top: 60px;
+.para{
+    /* height:10.625rem ; */
+    margin-top: 3.75rem;
     background-color: rgb(221, 233, 59);
     border-radius: 15%;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: italic;
 }
 
  .modal-content
- {font-size: 20px;
+ {font-size: 1.25rem;
     
     background-color: rgb(8, 124, 153);
 } 
 .menu{
-    height:700px;
+    /* height:43.75rem; */
     width:100%;
 }
-.new{margin-top: 10px;
+.new{margin-top: 0.625rem;
     text-align: center;
     color: rgb(79, 5, 148);
     background-color: rgb(231, 189, 20);
 }
 .card-img-top{
-    padding-top: 15px;
-    padding-left: 13px;
-    height: 230px;
-    width:240px;
+    padding-top: 0.9375rem;
+    padding-left: 0.8125rem;
+    height: 14.375rem;
+    width:15rem;
     border-radius: 25%;
 
 }
@@ -108,33 +109,34 @@ transform: scaleY(1.5);}
     justify-content: space-around;
     border:2px solid;
     width:100%;
-    height: 200px;
+    /* height: 12.5rem; */
     background-color: black;
 }
 .foot{
     color: rgb(240, 232, 232);
+    
 }
-.svg{
-    height:100px;
-    width:150px;
-}
+/* .svg{
+    height:6.25rem;
+    width:5rem;
+} */
 .inst{
-    height:120px;
-    width:100px;
+    height:7rem;
+    width:4rem;
 }
 
-.wrapper{background-color: rgb(189, 223, 243);
+.wrapper{background-color: rgb(212, 233, 245);
     width:100%;
-    padding-left: 30px ;
+    padding-left: 1.875rem ;
 }
 
 .title-1{
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
 }
-.title-1 h4{padding-top: 35px;
+.title-1 h4{padding-top: 2.1875rem;
     text-transform: capitalize;
-    font-size: 36px;
+    font-size: 2.25rem;
     position: relative;
     color: saddlebrown;
 }
@@ -144,10 +146,10 @@ transform: scaleY(1.5);}
     justify-content: space-between;
 }
 .single-menu{/*side ways gap */
-    flex-basis: 440px;
-    margin-bottom: 20px;
-    padding-right:50px;
-    padding-bottom: 20px;
+    flex-basis: 27.5rem;
+    margin-bottom: 1.25rem;
+    padding-right:3.1rem;
+    padding-bottom: 1.25rem;
     border-bottom: 2px solid rgb(102, 92, 245);
 }
 .single-menu:nth-child(11),.single-menu:nth-child(12){border-bottom: 0;}
